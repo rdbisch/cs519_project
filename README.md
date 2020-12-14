@@ -11,3 +11,5 @@ Note that even though all of the commits are in my name on github, in reality Ma
 1. ds000253_R1_fdata.npy - A numpy array that can be used for examples instead of downloading 5 GB of MRI data
 1. image_before_slide.jpg - A slice of an MRI clearly showing a tumor present
 
+## Python Requirements
+To run final notebook, you will need numpy, matplotlib, and opencv2.   To use downloaded MRI data, you will also need "bids".    To use old matplotlib rasterization code, you will also "requests".    There is also a requirements.txt available for pip, though the enviornment is not minimal.
